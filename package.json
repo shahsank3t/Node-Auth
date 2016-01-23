@@ -1,0 +1,26 @@
+{
+  "name": "Node-Auth",
+  "version": "1.0.0",
+  "description": "Authentication module via node and mongoDB",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "mongoose": "^4.3.6",
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahsank3t/Node-Auth.git"
+  },
+  "author": "Sanket Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahsank3t/Node-Auth/issues"
+  },
+  "homepage": "https://github.com/shahsank3t/Node-Auth#readme"
+}
