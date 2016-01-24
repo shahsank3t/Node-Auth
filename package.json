@@ -4,10 +4,13 @@
   "description": "Authentication module via node and mongoDB",
   "main": "app.js",
   "dependencies": {
+    "bcryptjs": "^2.3.0",
     "body-parser": "^1.14.2",
-    "mongoose": "^4.3.6",
+    "client-sessions": "^0.7.0",
+    "csurf": "^1.8.3",
     "express": "^4.13.4",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "mongoose": "^4.3.7"
   },
   "devDependencies": {},
   "scripts": {
@@ -18,7 +21,6 @@
     "url": "git+https://github.com/shahsank3t/Node-Auth.git"
   },
   "author": "Sanket Shah",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/shahsank3t/Node-Auth/issues"
   },

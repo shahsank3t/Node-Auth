@@ -10,6 +10,8 @@ block body
 		p ERROR: #{error}
 
 	form(method="post")
+		input(type='hidden', name="_csrf", value=csrfToken)
+
 		span Email:
 		input(type="email", name="email", required=true)
 		br
