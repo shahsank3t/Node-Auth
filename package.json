@@ -10,7 +10,7 @@
     "csurf": "^1.8.3",
     "express": "^4.13.4",
     "jade": "^1.11.0",
-    "mongoose": "^4.3.7"
+    "mongoose": "^5.7.8"
   },
   "devDependencies": {},
   "scripts": {
